@@ -11,7 +11,8 @@ shinyUI(fluidPage(
              href="https://github.com/jennybc/googlesheets/tree/master/inst/shiny-examples/04_embedded-google-form",
              target="_blank")),
         htmlOutput("googleForm")
-        ),
+        )
+      ,
       mainPanel(
         DT::dataTableOutput("googleFormData"),
         actionButton("refresh", "Refresh Sheet")

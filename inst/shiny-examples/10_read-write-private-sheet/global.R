@@ -6,7 +6,7 @@ filler <- matrix("-", nrow = n, ncol = n,
 ##  - do this interactively
 ##  - do this EXACTLY ONCE
 
-# shiny_token <- gs_auth() # authenticate w/ your desired Google identity here
+shiny_token <- gs_auth() # authenticate w/ your desired Google identity here
 # saveRDS(shiny_token, "shiny_app_token.rds")
 # ss <- gs_new("10_read-write-private-sheet",
 #              row_extent = n, col_extent = n, input = filler)
